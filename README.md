@@ -22,11 +22,11 @@ const App: FC = () => {
     useVueReactive(store);
 
     return (
-        <>
-            <div onClick={() => counter.value += 1}>Ref Counter: { counter.value }</div>
-            <div onClick={() => counters[0].value += 1; counters[1].value += 1}>Refs Counters: { counters[0].value + " " + counters[1].value }</div>
-            <div onClick={() => store.counter += 1}>Reactive counter: { store.counter }</div>
-        </>
+      <div>
+        <div onClick={() => counter.value += 1}>Ref Counter: { counter.value }</div>
+        <div onClick={() => counters[0].value += 1}>Refs Counters: { counters[0].value + " " + counters[1].value }</div>
+        <div onClick={() => store.counter += 1}>Reactive counter: { store.counter }</div>
+      </div>
     );
 }
 
