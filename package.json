@@ -1,0 +1,21 @@
+{
+  "name": "enjeu",
+  "version": "0.0.1",
+  "description": "The bridge between @vue/reactivity and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Vladimir Belyaev <belyaev.vladimir.olegovich@gmail.com>",
+  "license": "ISC",
+  "files": ["lib/**/*"],
+  "dependencies": {
+    "@vue/reactivity": "^3.1.0",
+    "react": "^17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.15",
+    "typescript": "^4.3.5"
+  }
+}
