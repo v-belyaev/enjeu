@@ -15,7 +15,7 @@
   },
   "files": ["lib/**/*"],
   "peerDependencies": {
-    "react": "^16.0.0",
+    "react": "^16.8.0 || ^17",
     "@vue/reactivity": "^3.0.0"
   },
   "devDependencies": {
