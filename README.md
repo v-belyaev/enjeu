@@ -2,6 +2,8 @@
 
 The bridge between @vue/reactivity and react
 
+[![npm version](https://badge.fury.io/js/enjeu.svg)](https://badge.fury.io/js/enjeu)
+
 ```TSX
 import { FC } from "react";
 import { useVueRef, useVueRefs, useVueReactive } from "enjeu";
