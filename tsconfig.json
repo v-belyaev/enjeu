@@ -6,7 +6,7 @@
         "allowJs": false,
         "strict": true,
         "declaration": true,
-        "outDir": "./lib",
+        "outDir": "./",
         "moduleResolution": "node",
     },
     "include": ["src"],

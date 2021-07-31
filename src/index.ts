@@ -1,5 +1,5 @@
-import { useVueReactive } from "./useVueReactive";
-import { useVueRef } from "./useVueRef";
-import { useVueRefs } from "./useVueRefs";
+import { useVueReactive } from "./main/useVueReactive";
+import { useVueRef } from "./main/useVueRef";
+import { useVueRefs } from "./main/useVueRefs";
 
 export { useVueReactive, useVueRef, useVueRefs };
