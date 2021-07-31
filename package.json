@@ -1,6 +1,6 @@
 {
   "name": "enjeu",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The bridge between @vue/reactivity and react",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,11 @@
     "type": "git",
     "url": "https://github.com/v-belyaev/enjeu"
   },
-  "files": ["main/**/*", "index.js", "index.d.ts"],
+  "files": [
+    "main/**/*",
+    "index.js",
+    "index.d.ts"
+  ],
   "peerDependencies": {
     "react": "^16.8.0 || ^17",
     "@vue/reactivity": "^3.0.0"
