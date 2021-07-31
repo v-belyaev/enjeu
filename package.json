@@ -1,6 +1,6 @@
 {
   "name": "enjeu",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The bridge between @vue/reactivity and react",
   "main": "index.js",
   "scripts": {
