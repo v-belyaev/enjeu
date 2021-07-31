@@ -9,10 +9,14 @@
   },
   "author": "Vladimir Belyaev <belyaev.vladimir.olegovich@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/v-belyaev/enjeu"
+  },
   "files": ["lib/**/*"],
-  "dependencies": {
-    "@vue/reactivity": "^3.1.0",
-    "react": "^17.0.0"
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "@vue/reactivity": "^3.0.0"
   },
   "devDependencies": {
     "@types/react": "^17.0.15",

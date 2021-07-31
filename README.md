@@ -9,7 +9,7 @@ import { ref, reactive } from "@vue/reactivity";
 
 // Ref's and reactive objects declares ONLY
 // outside react functional component
-// or in ReactContext
+// or in React.Context
 const counter = ref(0);
 const store = reactive({
     counter: 0
